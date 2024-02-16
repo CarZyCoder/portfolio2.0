@@ -51,7 +51,6 @@ export default function Home() {
                         <h2>hi there</h2>
                         <h2>i&apos;m om salunke</h2>
                         <Loaders />
-                        </p>
                         <AboutMe />                    </div>
                     <div class='social_media_link'>
                         <div class='social_media_btn'><a href="https://github.com/om0852"><img style={{ width: "40px", height: "40px" }} src={github.src} /></a></div>
