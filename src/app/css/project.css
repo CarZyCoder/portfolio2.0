@@ -1,6 +1,6 @@
 
 #projects{
-background:black;
+    background-color: black;
 }
 .work-list {
     display: grid;
@@ -22,7 +22,15 @@ background:black;
     display: block;
     transition: transform 0.5s;
 }
-
+.layer p::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .layer p {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 .layer {
     width: 100%;
     height: 0;
@@ -88,7 +96,10 @@ background:black;
     font-size: 30px;
 }
 .layer p{
+    width: 90%;
     font-size: 17px;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 .work {
     border-radius: 10px;
